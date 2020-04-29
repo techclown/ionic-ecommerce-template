@@ -1,0 +1,32 @@
+
+<ion-content [fullscreen]="true">
+  <div class="ion-text-center" id="container">
+    <h1 >TRENDY</h1>
+    <br>
+    <small><strong>MODERN IN STYLE 风格现代</strong></small>
+  </div>
+
+
+<div class="btn_container">
+  <button ion-button icon-start (click)="loginAction();">
+      <ion-icon slot="start" id="face" name="logo-facebook"></ion-icon>
+     <h2 id="facebook"> Facebook </h2>
+    </button>
+</div>
+
+<div class="btn_container">
+  <button id="go" ion-button icon-start (click)="loginAction();">
+    <img id="faci" src="assets/g.png" alt="">
+     <h2 id="google"> Google </h2>
+    </button>
+</div>
+
+<div class="btn_container">
+  <button id="mail" ion-button icon-start (click)="loginAction();">
+      <ion-icon slot="start" id="face" name="mail-outline"></ion-icon>
+     <h2 id="gmail"> Sign Up with Email </h2>
+    </button>
+</div>
+
+<p id="log"><a href="#">Login</a></p>
+</ion-content>

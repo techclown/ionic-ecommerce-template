@@ -4,17 +4,17 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { OnBoardingPageRoutingModule } from './on-boarding-routing.module';
+import { LogPageRoutingModule } from './log-routing.module';
 
-import { OnBoardingPage } from './on-boarding.page';
+import { LogPage } from './log.page';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    OnBoardingPageRoutingModule
+    LogPageRoutingModule
   ],
-  declarations: [OnBoardingPage]
+  declarations: [LogPage]
 })
-export class OnBoardingPageModule {}
+export class LogPageModule {}

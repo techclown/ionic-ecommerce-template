@@ -1,0 +1,111 @@
+ion-content {
+    --background: #fff url("~/assets/back3.jpeg") no-repeat center center / cover;
+  }
+  
+#container {
+    position: absolute;
+    left: 7%;
+    right: 0;
+    top: 40%;
+    transform: translateY(-50%);
+  }
+
+  #container h1 {
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 72px;
+    letter-spacing: 7px;
+    line-height: 26px;
+    font-weight: 100;
+    
+  }
+
+#container small {
+    font-size: 12px;
+    letter-spacing: 2px;
+     color: white;
+     font-weight: 300;
+}
+
+
+.btn_container {
+    position: relative;
+    top: 65%;
+   left: 13%;
+   border-spacing: 10px;
+   padding: 5px;
+   }
+button {
+     background: #3b5998;
+     padding: 8px;
+     color: #fff;
+     font-size: 16px;
+      width: 70%;
+     }
+   
+    #face{
+       float: left;
+       font-size: 29px;
+       
+     }
+
+     #faci{
+      float: left;
+     width: 27px;
+      
+    }
+   
+     #facebook{
+     
+       font-size: 19px;
+       text-align: center;
+       position: relative;
+       margin-top: 8px;
+       margin-left: -40px;
+       margin-bottom: -5px; 
+       
+     }
+   
+     #google{
+     
+       font-size: 19px;
+       text-align: center;
+       position: relative;
+       margin-top: 3px;
+       margin-left: -36px;
+       margin-bottom: -5px;
+       
+     }
+     #go{
+       background: #ffffff;
+       color: #000000;
+     }
+   
+     #gmail{
+     
+       font-size: 15px;
+       text-align: center;
+       position: relative;
+         margin-top: 5px;
+       margin-left: -24px;
+       margin-bottom: -5px;
+       
+     }
+   
+     #mail{
+       background: #000000;
+       color: #fff;
+       
+     }
+   
+     #log a{
+        text-decoration: none;
+        color: #fff;
+        
+     }
+
+     #log{
+        position: absolute;
+        top: 92%;
+        left: 45%;
+     }
