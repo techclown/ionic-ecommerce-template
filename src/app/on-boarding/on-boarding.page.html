@@ -1,0 +1,40 @@
+<ion-header>
+  
+</ion-header>
+
+<ion-content>
+  <div class="slides_div">
+    <ion-slides pager="true" [options]="slideOpts" id = 'welcome_slides'>
+      
+      <ion-slide>
+        
+          <img src="assets/slides/1.jpg">
+          <p>DISCOVER TRENDS</p>
+          <small>Over thousands of stylish products online</small>
+        
+      </ion-slide>
+      
+      <ion-slide> 
+       
+          <img src="assets/slides/2.jpg">
+          <p>ADD TO MY WISHLIST</p>
+          <small>Choose the items you're most interested in</small>
+        
+      </ion-slide>
+      
+      <ion-slide>
+        
+          <img src="assets/slides/3.jpg">
+          <p>IT'S SIMPLY FOR YOU</p>
+          <small>A smart experience, from browsing to delivery</small>
+        
+      </ion-slide>
+
+    </ion-slides>
+
+    <ion-button color="dark" class="get-started-button" (click)="next()" >
+      <div class="button_div"> Get Started </div>
+    </ion-button>
+
+  </div>
+</ion-content>
