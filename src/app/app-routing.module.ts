@@ -13,6 +13,10 @@ const routes: Routes = [
   {
     path: 'log',
     loadChildren: () => import('./log/log.module').then( m => m.LogPageModule)
+  },
+  {
+    path: 'resetpassword',
+    loadChildren: () => import('./resetpassword/resetpassword.module').then( m => m.ResetpasswordPageModule)
   }
 ];
 @NgModule({
