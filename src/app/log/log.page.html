@@ -16,25 +16,28 @@
   
   
   <ion-content>
-    <ion-list>
-  
+    <form>
       <ion-item>
-        <!-- <ion-label>Username</ion-label> -->
-        <ion-input id="input" type="text" placeholder="Email"></ion-input>
+        <ion-label position="floating" color="dark">Email</ion-label>
+        <ion-input type="Email" ></ion-input>
       </ion-item>
-    
+      
       <ion-item>
-        <ion-input id="input" type="password" placeholder="Password"></ion-input>
+            <ion-label position="floating" color="dark">Password</ion-label>
+            <ion-input type="password"></ion-input>   
       </ion-item>
-    
-    </ion-list>
-    
-    
-    
-    <ion-button id="butt" expand="full" color="dark"> Login </ion-button>
+     
    
-  <ion-text class="ion-text-center" color="secondary"></ion-text>
-  
+   
+    
+    
+    
+<ion-button id="butt" expand="full" color="dark"> Login </ion-button>
+   
+</form>
+
+
+
   <ion-col>
     <div class="ion-text-center">
       <a href="#" (click)="gotoresetpass();">Forgotten your password?</a>
@@ -49,7 +52,7 @@
        <h2 id="facebook"> Facebook </h2>
       </button>
   </div>
- 
+
  
   
   </ion-content>
