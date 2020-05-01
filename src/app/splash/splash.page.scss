@@ -1,5 +1,29 @@
-h1{
-    text-align: center;
-    font-size: 290%;
-    padding-top: 75%;
+// h1{
+//     text-align: center;
+//     font-size: 290%;
+//     padding-top: 75%;
+// }
+
+#container{
+    position: relative;
+    top: 35%;
+
+    
+}
+
+ #container h1{
+    font-size: 66px;
+    // font-family: 'Oswald';
+    font-weight: 700;
+    letter-spacing: 5px;
+
+}
+
+#container strong{
+    font-size: 8px;
+    // font-family: 'Caveat';
+    letter-spacing: 2px;
+    position: absolute;
+    top: 67%;
+    left: 30%
 }
