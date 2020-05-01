@@ -17,7 +17,15 @@ const routes: Routes = [
   {
     path: 'resetpassword',
     loadChildren: () => import('./resetpassword/resetpassword.module').then( m => m.ResetpasswordPageModule)
+  },  {
+    path: 'splash',
+    loadChildren: () => import('./splash/splash.module').then( m => m.SplashPageModule)
+  },
+  {
+    path: 'on-boarding',
+    loadChildren: () => import('./on-boarding/on-boarding.module').then( m => m.OnBoardingPageModule)
   }
+
 ];
 @NgModule({
   imports: [
