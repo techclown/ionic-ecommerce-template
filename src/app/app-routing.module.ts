@@ -32,6 +32,14 @@ const routes: Routes = [
   {
     path: 'home',
     loadChildren: () => import('./home/home.module').then( m => m.HomePageModule)
+  },
+  {
+    path: 'sidemenu',
+    loadChildren: () => import('./sidemenu/sidemenu.module').then( m => m.SidemenuPageModule)
+  },
+  {
+    path: 'mainstore',
+    loadChildren: () => import('./mainstore/mainstore.module').then( m => m.MainstorePageModule)
   }
 
 ];
