@@ -1,0 +1,69 @@
+ion-toolbar{
+    --padding-top: 15px;
+    --padding-bottom: 15px;
+}
+
+ion-toolbar ion-title{
+    text-align: center;
+}
+
+ion-toolbar ion-icon{
+    color: #000000;
+}
+
+ion-item-sliding ion-item-option{
+    --background: #ff0000;
+}
+
+ion-item{
+    --padding-top: 10px;
+    --padding-bottom: 10px;
+    align-content: space-between;
+}
+
+ion-item img{
+    width: 28%;
+    padding-right: 15px;
+}
+
+.item_div{
+    height: 100%;
+    width: 100%;
+}
+
+.top_div{
+    top: 0px;
+    height: 80%;
+}
+
+.bottom_div{
+    bottom: 0px;
+}
+
+.add_minus{
+    --background: #afafaf;
+    width: 40px;
+    height: 30px;
+    
+}
+
+.add_minus ion-icon{
+    color: #000000;
+}
+
+#buy_button{
+    position: fixed;
+    bottom: 20px;
+    left: 10%;
+    right: 10%;
+}
+
+.price_text{
+    //position: absolute;
+    right: 0px;
+    bottom: 0px;
+    height: 100%;
+    padding-top: 35%;
+}
+
+

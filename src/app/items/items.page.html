@@ -1,0 +1,102 @@
+<ion-header class="ion-no-border">
+  
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-button>
+        <ion-icon slot="icon-only" name="close-outline"></ion-icon>
+      </ion-button>
+    </ion-buttons> 
+    <ion-title>ITEMS</ion-title>
+    <ion-buttons slot="end">
+      <ion-button>
+        <ion-icon slot="icon-only" name="create-outline"></ion-icon>
+      </ion-button>
+    </ion-buttons> 
+  </ion-toolbar>
+  
+</ion-header>
+
+
+<ion-content>
+
+  
+  <ion-list lines="full">
+    <ion-item-sliding>
+      <ion-item class="ion-justify-content-between">
+        <img src="https://images.pexels.com/photos/1884661/pexels-photo-1884661.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">
+        <div class="item_div">  
+          <div class="top_div">
+            <strong>Performance Seamless Sports Bra</strong><br>
+            <small>Item ID: 19334132</small><br>
+            <small>Size: M / Color: Black</small><br>
+            <ion-icon name="ellipsis-horizontal-circle-outline"></ion-icon>
+            <ion-icon name="ellipse" color=#ff0000></ion-icon><br> 
+          </div>
+          <div class="bottom_div">
+            <ion-button class="add_minus">
+              <ion-icon slot="icon-only" name="remove-outline"></ion-icon>
+            </ion-button>
+            <strong>1</strong>
+            <ion-button class="add_minus">
+              <ion-icon slot="icon-only" name="add-outline"></ion-icon>
+            </ion-button>
+          </div>
+        </div>
+        <div class="price_text">
+          <strong>$24.99</strong>  
+        </div>
+      </ion-item>
+      <ion-item-options>
+        <ion-item-option>
+          <ion-icon slot="icon-only" name="trash-outline"></ion-icon>
+        </ion-item-option>
+      </ion-item-options>
+    </ion-item-sliding>
+  
+    <ion-item-sliding>
+      <ion-item>
+        <img src="https://images.pexels.com/photos/3894389/pexels-photo-3894389.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+        <div class="item_div">  
+          <div class="top_div">
+            <strong>Pyjama-Style Trouser</strong><br>
+            <small>Item ID: 67742238</small><br>
+            <small>Color: Greyish Green</small><br>
+            <ion-icon name="ellipsis-horizontal-circle-outline"></ion-icon>
+            <ion-icon name="ellipse" color=#42594E></ion-icon><br>  
+          </div>
+          <div class="bottom_div">
+            <ion-button class="add_minus">
+              <ion-icon slot="icon-only" name="remove-outline"></ion-icon>
+            </ion-button>
+            <strong>1</strong>
+            <ion-button class="add_minus">
+              <ion-icon slot="icon-only" name="add-outline"></ion-icon>
+            </ion-button>
+          </div>
+        </div>
+        <strong class="price_text">$35.59</strong>   
+      </ion-item>
+      <ion-item-options>
+        <ion-item-option>
+          <ion-icon slot="icon-only" name="trash-outline"></ion-icon>
+        </ion-item-option>
+      </ion-item-options>
+    </ion-item-sliding>
+  
+  
+    <ion-item button (click)="buttonClick()">
+      <ion-label>
+        Use Promotional Code
+      </ion-label>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>
+        Total
+      </ion-label>
+      <strong>$60.58</strong>
+    </ion-item>
+  </ion-list> 
+
+  <ion-button color="dark" id="buy_button" expand="full">Buy</ion-button>
+</ion-content>

@@ -17,7 +17,8 @@ const routes: Routes = [
   {
     path: 'resetpassword',
     loadChildren: () => import('./resetpassword/resetpassword.module').then( m => m.ResetpasswordPageModule)
-  },  {
+  },
+  {
     path: 'splash',
     loadChildren: () => import('./splash/splash.module').then( m => m.SplashPageModule)
   },
@@ -33,13 +34,15 @@ const routes: Routes = [
     path: 'home',
     loadChildren: () => import('./home/home.module').then( m => m.HomePageModule)
   },
-  {
-    path: 'sidemenu',
-    loadChildren: () => import('./sidemenu/sidemenu.module').then( m => m.SidemenuPageModule)
-  },
-  {
+  
+{
     path: 'mainstore',
     loadChildren: () => import('./mainstore/mainstore.module').then( m => m.MainstorePageModule)
+==},
+{=====
+    path: 'items',
+    loadChildren: () => import('./items/items.module').then( m => m.ItemsPageModule)
+>>>>>>> 44b2ac8ee7603d3cbd89576a08d08a15604de685
   }
 
 ];
