@@ -35,15 +35,15 @@ const routes: Routes = [
     loadChildren: () => import('./home/home.module').then( m => m.HomePageModule)
   },
   
- {
+  {
     path: 'mainstore',
     loadChildren: () => import('./mainstore/mainstore.module').then( m => m.MainstorePageModule)
-==},
-{=====
+  },
+  
+  {
   path: 'items',
   loadChildren: () => import('./items/items.module').then( m => m.ItemsPageModule)
->>>>>>> 44b2ac8ee7603d3cbd89576a08d08a15604de685
-}
+  }
 
 ];
 @NgModule({
